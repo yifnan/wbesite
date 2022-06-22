@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Diabetes Classification Model - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Diabetes Classifier</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#project">Project Overview</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#EDA">EDA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ML">Machine Learning</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Team">Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('https://images.ctfassets.net/x0s5vw77vftn/ew_wysiwyg_fid4845_asset/7ec294fc1fac3439422586e124a12152/InsulinDeliveryDevices_51876725_M.jpg')">
+            <div class="text-center my-5">
+                <h1 class="text-black fs-3 fw-bolder">Diabetes - Creating a Model for the Future</h1>
+              <br>
+              <br>
+              <p class="text-black mb-0"><strong>Created by - Parallel Processing Team</strong></p>
+          </div>
+          </header>
+               
+         
+      
+      
+            
+        
+      
+        <!-- INTRODUCTION section-->
+        <section id = 'project'>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div style='text-align:center'><h2 style = "font-size:50px;">What does the project do?</h2></div>
+                        <p class="lead">Our goal for this project is to be able to create a model that can identify whether or not a person has diabetes. By using a dataset that includes several health levels such as: Glucose, Insulin, and Age, our team is able to train our model to identify the symptom levels of diabetes. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+      <!-- EDA section-->
+        <section id = 'EDA'>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2 style = "font-size:50px;">Exploration of data: Heatmap</h2>
+                        <p class="lead">A heatmap's main purpose is to display the correlation between features in a dataset. If you look below you can see all the features: Glucose, BMI, etc. and their correlation to the outcome.</p>
+                      <div style='text-align:center'><iframe src = 'heatmap.html' width = 800 height = 800 ></iframe></div>
+                      <p class = 'lead'>
+                        Glucose and BMI were the two most correlated factors to whether or not a person has diabetes. </p>
+                      <hr/>
+                      <h2 style = 'font-size:50px;'>
+                        Exploration of Data: Boxplots
+                      </h2>
+                      <p class = 'lead'>
+                       insert explanation about boxplots here
+                      </p>
+                      <iframe src = 'boxplot.html' width = 800 height = 800 ></iframe>
+                      <p class = 'lead'>
+                        insert text here about boxplots and removing outliers for data cleaning
+                      </p>
+                      <hr/>
+                      <h2 style = 'font-size:50px;'>
+                      Exploration of Data: Scatterplots
+                      </h2>
+                      <p class="lead">
+                      <iframe src = 'scatterplot.html' width = 800 height = 800 ></iframe>
+                      
+                        
+                      </p>
+                      
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('https://connect.ignatiuz.com/hs-fs/hubfs/AI%20and%20Deep%20Learning.gif?width=1000&name=AI%20and%20Deep%20Learning.gif')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+      
+       <!-- ML section-->
+        <section id = 'ML'>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div style='text-align:center'><h1 style = "font-size:75px;">Machine Learning Models </h1></div>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                        <div style='text-align:center'><h2 style = "font-size:60px;">Logistic Regression</h2></div>
+                        <p class="lead"> </p>
+                      <div style='text-align:center'><p class="lead">Logistic Regression is used when predicting an outcome based on a fixed variable such as determining possible risk of disease using health factors like Glucose level and BMI (Body Mass Index). Before predicting an outcome, filtering through data is usually the best course of action because it allows faulty data to be discarded such as if the data set displays someone’s  blood pressure as 0 or 400. </p>
+                       <p class = 'lead'> <b>Logistic Regression accuracy</b> - 84.6 % </p>
+                      </div>
+                      <div style='text-align:center'><h2 style = "font-size: 60px;">K-nearest neighbors</h2></div>                        <p class="lead"> </p>
+                        <p class="lead"> </p>
+                      <div style='text-align:center'><p class = 'lead'> KNN takes a data point and find the k nearest points to that data point.
+If k=5, KNN find the 5 nearest neighbors and chooses the class of neighbor that has the majority. 
+This is why k should not be an even number because there is a possibility of a tie. In this dataset I tested many different k values and found that k=47 gave the best accuracy. 
+</p>  <p class = 'lead'><b>K-nearest neighbors accuracy</b> - 85.9 % </p>
+                        <div style='text-align:center'><h2 style = "font-size: 60px;">Random Forests</h2></div> 
+                      
+                      
+                      </div>
+                      <div style='text-align:center'><p class = 'lead'> Random forest works by constructing a “forest” of decision trees and outputting the average result from the trees to categorize data. To increase the accuracy of the method, we can go through the data set and take out outliers and only apply the most relevant data points.
+                        </p>
+                        </h2>
+                          
+
+                        
+                        
+                        
+                      
+
+                          
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('https://c.tenor.com/7kz9P1xyYeoAAAAM/hackers-scrolling.gif')">
+          <br>
+          <br>
+          <br>
+          <br>
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+      
+      
+        <!-- CONCLUSION section-->
+        <section id="Conclusion">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div style='text-align:center'><h2 style = "font-size:60px;">-Conclusion-</h2></div>
+                        <p class="lead"></p>
+                        <p class = 'lead'>Based on the results, our team has come to the conclusion that k-nearest neighbors has performed the best compared to  all the ML models. With cleaning the data and handling the outliers, all models were able to get to significantly high accuracy points: </p>
+                      <p class = 'lead'> <b>Logistic Regression accuracy</b> - 84.6 % </p>
+                      <p class = 'lead'><b>K-nearest neighbors accuracy</b> - 85.9 % </p>
+<p 
+                      <p class = 'lead'><b>Random Forest accuracy</b> - 80.7 % </p>
+<p class = 'lead'>Since our data set is not the most significant(big) and recent set, further research must be done in order to use this model in the real world. However with more recent research and data this model could be able to prevent people from experiencing harsh effects of untreated diabetes, along with helping people try and reverse it. If our model is able to point out diabetes early enough, then the individual has a chance of reversing their condition.
+  
+  <!-- Team section-->
+        <section id="Team">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div style='text-align:center'><h2 style = "font-size:60px;">-Meet the Team-</h2></div>
+                        <p class="lead"></p>
+                        <p class = 'lead'>
+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+      
+      
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Parallel Processing 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
